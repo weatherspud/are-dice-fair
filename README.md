@@ -56,3 +56,4 @@ significant even at a significance level of 0.05:
     > p.adjust(pp, "bonferroni")
     [1] 1.0000000 0.1096233 1.0000000 1.0000000 1.0000000
 
+Looks like our dice are fair!
