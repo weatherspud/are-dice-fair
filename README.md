@@ -10,7 +10,7 @@ each face comes up.  In our example we rolled each die 100 times.
 <img width="400px" src="https://raw.githubusercontent.com/weatherspud/are-dice-fair/master/die_results.jpg">&nbsp;<img width="400px" src="https://raw.githubusercontent.com/weatherspud/are-dice-fair/master/die_results2.jpg">
 
 In RStudio, we define a variable containing the vector of
-results for that die:
+results for each die:
 
     > d4 = c(27, 25, 28, 20)
     > d6 = c(23, 12, 18, 23, 6, 18)
