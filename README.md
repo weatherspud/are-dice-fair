@@ -31,7 +31,7 @@ is the number of times the die was rolled:
     > sum(d4)
     [1] 100
     
-Now we define a function which take the vector for each die and
+Now we define a function which takes the vector for each die and
 returns a `p` value using the Chi-squared test:
     
     > compute_p = function(x) {
