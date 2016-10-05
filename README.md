@@ -7,9 +7,9 @@ An example of how to test dice for fairness using the Chi-squared test and R.
 Roll the dice a large number of times and keep a tally of how often
 each face comes up.  In our example we rolled each die 100 times.
 
-<img src="die_result.jpg">
+<img src="https://raw.githubusercontent.com/weatherspud/are-dice-fair/master/die_results.jpg">
 
-<img src="die_result2.jpg">
+<img src="https://raw.githubusercontent.com/weatherspud/are-dice-fair/master/die_results2.jpg">
 
 Copy the code for `compute_p` into RStudio.  `compute_p` takes a
 vector of the number of times each side came up, and returns a `p`
