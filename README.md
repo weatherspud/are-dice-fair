@@ -42,7 +42,7 @@ returns a `p` value using the Chi-squared test:
     +   1 - pchisq(compute_chi(x), length(x) - 1)
     + }
 
-I computed the `p` value for each of the dice:
+I computed the `p` value for each die:
 
     > pp = c(compute_p(d4), compute_p(d6), compute_p(d8), compute_p(d12), compute_p(d20))
     > pp
