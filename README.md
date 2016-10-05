@@ -25,7 +25,7 @@ number of sides the die has:
     [1] 4
     
     
-We can use `sum` to check that the sum of the components of the vector
+We use `sum` to check that the sum of the components of the vector
 is the number of times the die was rolled:
     
     > sum(d4)
