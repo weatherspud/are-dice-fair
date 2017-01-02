@@ -76,7 +76,7 @@ Let's apply the test to some dice which we know are unfair:
 <img height="500px" src="https://raw.githubusercontent.com/weatherspud/are-dice-fair/master/loaded.jpg">&nbsp;<img height="500px" src="https://raw.githubusercontent.com/weatherspud/are-dice-fair/master/loaded2.jpg">
 
 The raw data will convince most people that these dice are unfair, but
-let's go ahead and compute the test stastitic and p-value:
+let's go ahead and compute the test stastitics and p-values:
 
     > pp_loaded = c(compute_p(d6_loaded1),
     +   compute_p(d6_loaded2))
