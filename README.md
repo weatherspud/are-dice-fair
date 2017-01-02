@@ -73,7 +73,7 @@ Looks like the Chessex dice are also fair!
 
 Let's apply the test to some dice which we know are unfair:
 
-<img height="600px" src="https://raw.githubusercontent.com/weatherspud/are-dice-fair/master/loaded.jpg">&nbsp;<img height="600px" src="https://raw.githubusercontent.com/weatherspud/are-dice-fair/master/loaded2.jpg">
+<img height="50px" src="https://raw.githubusercontent.com/weatherspud/are-dice-fair/master/loaded.jpg">&nbsp;<img height="500px" src="https://raw.githubusercontent.com/weatherspud/are-dice-fair/master/loaded2.jpg">
 
 The raw data will convince most people that these dice are unfair, but
 let's go ahead and compute the test stastitic and p-value:
