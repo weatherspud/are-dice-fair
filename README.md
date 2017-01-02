@@ -68,3 +68,21 @@ I did the same procedure for a set of Chessex dice. Here are the results:
     [1] 0.9674319 1.0000000 1.0000000 1.0000000 0.9807618
 
 Looks like the Chessex dice are also fair!
+
+# What About Unfair Dice
+
+Let's apply the test to some dice which we know are unfair:
+
+<img height="600px" src="https://raw.githubusercontent.com/weatherspud/are-dice-fair/master/loaded.jpg">&nbsp;<img width="600px" src="https://raw.githubusercontent.com/weatherspud/are-dice-fair/master/loaded2.jpg">
+
+The raw data will convince most people that these dice are unfair, but
+let's go ahead and compute the test stastitic and p-value:
+
+    > pp_loaded = c(compute_p(d6_loaded1),
+    +   compute_p(d6_loaded2))
+    > p.adjust(pp_loaded, "bonferroni")
+    [1] 0 0
+
+Even after applying the Bonferroni correction, the p-values are zero!
+In fact the p-values must be positive. Apparently they are too small
+to be represented with the precision my machine is using.
