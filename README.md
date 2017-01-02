@@ -86,5 +86,6 @@ let's go ahead and compute the test stastitic and p-value:
 Even after applying the Bonferroni correction, the p-values are
 zero. The dice are certainly unfair!
 
-In fact the p-values must be positive. The values are just too small
-to be calculated given the precision my machine is using.
+Of course there is no way we can be certain. The actual p-values must
+be positive. They are just too small to be calculated given the
+precision my machine is using.
