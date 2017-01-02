@@ -83,6 +83,8 @@ let's go ahead and compute the test stastitic and p-value:
     > p.adjust(pp_loaded, "bonferroni")
     [1] 0 0
 
-Even after applying the Bonferroni correction, the p-values are zero!
-In fact the p-values must be positive. Apparently they are too small
-to be represented with the precision my machine is using.
+Even after applying the Bonferroni correction, the p-values are
+zero. The dice are certainly unfair!
+
+In fact the p-values must be positive. The values are just too small
+to be calculated given the precision my machine is using.
